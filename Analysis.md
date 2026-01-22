@@ -16,7 +16,7 @@ Attack Vector: Process hollowing using an XOR-encrypted payload
 
 (Screenshots illustrating the test environment and security configuration are provided below.)
 
-<img width="940" height="547" alt="image" src="https://github.com/user-attachments/assets/ad6fd8a5-659b-41cf-8739-91426f1699f6" />  
+<img width="940" height="523" alt="image" src="https://github.com/user-attachments/assets/9b20c232-dd1e-4634-aa31-3de57d48f845" /> 
 <img width="453" height="411" alt="image" src="https://github.com/user-attachments/assets/e5916ede-b696-4328-afdc-0fd0eaf0c519" />  
     
 Attacker Infrastructure  
@@ -77,9 +77,11 @@ Monitoring Gap Timeline: | Detection Log Analysis: | Trend Micro Console Logs:
 ## 1.4 Endpoint Protection Status Anomaly in Vision One Dashboard  
 Further investigation in the Trend Micro Vision One dashboard revealed a notification stating that endpoint protection features were not installed.  
 At the time of analysis, it was unclear whether this condition was caused by a service failure, incomplete agent deployment, or a temporary loss of protection, which may have resulted in the delayed detection and lack of real-time prevention.  
-<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/ee024f80-08a2-49f7-9a39-7e40d4484b0c" />
-<img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/ec766b13-329d-4b46-b15d-0219dbbb0025" />
-<img width="768" height="668" alt="image" src="https://github.com/user-attachments/assets/d6c8e49c-c638-4044-95a2-b0deaf6063ad" />
+<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/ee024f80-08a2-49f7-9a39-7e40d4484b0c" />   
+
+<img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/ec766b13-329d-4b46-b15d-0219dbbb0025" />  
+
+<img width="768" height="668" alt="image" src="https://github.com/user-attachments/assets/d6c8e49c-c638-4044-95a2-b0deaf6063ad" />  
 
 
 ________________________________________
