@@ -1,7 +1,7 @@
 xindexindex.github.io  
 # Trend Micro XDR Platform Security Limitations
 
-Executive Summary  
+## Executive Summary  
 During our controlled penetration testing and evaluation of Trend Micro's XDR platform (Apex One with Vision One integration), we identified several critical operational and security limitations. This research documents systematic weaknesses in deployment architecture, removal procedures, and detection capabilities against modern attack techniques. Our findings demonstrate that despite aggressive monitoring configurations, the platform failed to prevent a simulated process hollowing attack utilizing XOR-encrypted payloads.
 ________________________________________
 # 1. Detection Gap Analysis: Encrypted Reverse Shell (Process Hollowing with XOR Encryption)
