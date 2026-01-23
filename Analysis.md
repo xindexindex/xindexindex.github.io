@@ -86,7 +86,7 @@ At the time of analysis, it was unclear whether this condition was caused by a s
 
 ________________________________________
 
-# 2. Fileless attack  
+# 2. Fileless attack (Jenkins)  
 Following the initial assessment, a fileless reverse shell execution technique was subsequently tested on the same endpoint to evaluate the effectiveness of endpoint detection and response controls against in-memory attacks. The target system was identified to be running Jenkins, and the assessment team had authorized access to the Jenkins Script Console, which operates with high privileges and executes code within a trusted application context.  
 
 Using the Jenkins Script Console, a reverse shell payload was executed directly in memory, without writing any executable files to disk. The command leveraged native system utilities and scripting capabilities provided by the Jenkins runtime environment, thereby avoiding traditional file-based indicators that are commonly relied upon by signature-based detection mechanisms. Upon execution, the payload successfully established an outbound reverse shell connection from the endpoint to the attacker-controlled host, demonstrating full command execution capability and interactive access.  
